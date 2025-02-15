@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/slick-theme.css"> 
+    <link rel="stylesheet" href="css/slick.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/aos.css"> 
+    <link rel="icon" type="image/x-icon" href="images/Osaka-logo-light.svg"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title> OSKALAB </title>
+
+</head>
+<body>
+    <div class="header-main d-none d-sm-none d-md-block d-lg-block py-2 z-999"> 
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid"> 
+                <a href="#" class="me-5 fs-2 d-block text-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-list"></i>
+                </a>
+                <div class="modal" id="staticBackdrop"> 
+                    <div class="modal-dialog"> 
+                        <div class="modal-content"> 
+                            <div class="modal-header"> 
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"> </button>
+                                <div class="modal-body"> 
+                                    <a class="ml-5" href="#"> <Img src="images/Osaka-logo-light.svg"> </a>
+                                        <div class="card border-0"> 
+                                            <div class="card-body py-2 px-4"> 
+                                                <ul class="card-list"> 
+                                                    <li class="card-item">Home <i class="bi bi-chevron-right"></i>
+                                                    </li>
+                                                    <li class="card-item">About <i class="bi bi-chevron-right"></i>
+                                                    </li>
+                                                    <li class="card-item">Service <i class="bi bi-chevron-right"></i>
+                                                    </li>
+                                                    <li class="card-item">Pages <i class="bi bi-chevron-right"></i>
+                                                    </li>
+                                                    <li class="card-item">News & Insight <i class="bi bi-chevron-right"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <p> Copyright © 2024 <b> Osakalab.</b> All Rights Reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="navbar-brand"> <img src="images/Osaka-logo-light.svg"> </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent"> 
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown mx-3 fs-6 text-uppercase">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home </a>
+                            <ul class="dropdown-menu bg-primary rounded-0 p-3 mt-1"> 
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Home 1</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Home 2</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Home 3</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Home 4</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Home 5</a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-3 fs-6 text-uppercase">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">About</a>
+                            <ul class="dropdown-menu bg-primary rounded-0 p-3 mt-1"> 
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Our Company</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Our Experts</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Our History</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Our Parteners </a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-3 fs-6 text-uppercase">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"> Services</a>
+                            <ul class="dropdown-menu bg-primary rounded-0 p-3 mt-1"> 
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Services style 1</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Services style 2</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Research Models & Services </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Biologics Testing Solutions  </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Formulations & product chemistry </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Screening & Profiling Assays </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Laboratory Science  </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#"> Qc Microbial Testing Solutions</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Safety Assessment </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#"> Medical Dagnostic </a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-3 fs-6 text-uppercase">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"> Pages </a>
+                            <ul class="dropdown-menu bg-primary rounded-0 p-3 mt-1">
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Award & Recognition </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Careers </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">FAQS </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Gallery   </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Events </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Portfolios </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Shop</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Contact Us</a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#"> 404 </a> </li>
+                                <li><a class="dropdown-item px-5 text-light py-2" href="#">Coming Soon </a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-3 fs-6 text-uppercase position-static">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"> News & Insight </a>
+                            <ul class="dropdown-menu rounded-0 p-3 mt-1"> 
+                                <li><a class="dropdown-item virus" href="#"></a>
+                                    <div class="row"> 
+                                        <div class="col-6 p-0"> 
+                                            <div class="card w-1000 bg-transparent border-0"> 
+                                                <div class="card-body"> 
+                                                    <h2 class="corona card-title text-light fs-4 fw-bold">Coronavirus SARS-CoV-2</h2>
+                                                    <p class="spread card-text text-wrap text-light"> The spread of SARS-CoV-2 has become a serious challenge for public health, economy and social life in Europe and other regions of the world. To flatten the curve of new infections, not only social distancing and restrictions in public life but also fast and reliable testing plays an essential role.</p>
+                                                   <a class="read-more btn btn-outline-light text-light rounded-0" href="#"> read more </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 p-0"> 
+                                            <div class="card bg-transparent border-0 text-light"> 
+                                                <div class="card-body"> 
+                                                    <h3 class="card-subtitle fs-6">ALL NEWS </h3>
+                                                    <ul class="card-list d-flex flex-column w-100"> 
+                                                        <li class="card-item mt-3"><a href="#" class="card-link"> Blog List </a></li>
+                                                        <li class="card-item"><a href="#" class="card-link">Blog Left Sidebar  </a></li>
+                                                        <li class="card-item"><a href="#" class="card-link">Single Blog </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 p-0"> 
+                                            <div class="card bg-transparent border-0 text-light"> 
+                                                <div class="card-body"> 
+                                                    <h3 class="card-subtitle fs-6">PUBLICATIONS </h3>
+                                                    <ul class="card-list d-flex flex-column w-100"> 
+                                                        <li class="card-item mt-3"><a href="#" class="card-link"> Journal Articles  </a></li>
+                                                        <li class="card-item"><a href="#" class="card-link">Publications by Our experts   </a></li>
+                                                        <li class="card-item"><a href="#" class="card-link">Detail Publication Free  </a></li>
+                                                        <li class="card-item"><a href="#" class="card-link">Locked Detail Publication </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item ms-5 position-relative">
+                             <a href="#" class="nav-link fs-5"><span> <i class="bi bi-cart2"></i></span></i>
+                        </a></li>
+                        <li class="nav-item position-relative ms-2"> <a href="#" class="nav-link fs-5"><span> <i class="bi bi-search"></i></span></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <form class="d-flex"> 
+                    <button type="button" class="quote1 btn btn-primary rounded-0  fs-6 px-5"> Get<br>Quote </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="banner-main"> 
+        <div class="container-fluid p-0"> 
+            <div class="banner-main1"> 
+                <div class="banner position-relative"> 
+                    <div class="banner-image"> 
+                        <img src="images/banner girl.png"> 
+                    </div>
+                    <div class="circle"> 
+                        <img src="images/circle-shape.svg"> 
+                    </div>  
+                    <div class="circle1"> 
+                        <img src="images/circle-shape.svg"> 
+                    </div>  
+                    <div class="circle-o"> 
+                        <img src="images/O.svg"> 
+                    </div>
+                    <div class="alphabet"> 
+                        <img src="images/A.svg">
+                    </div>
+                    <div class="dot1"> 
+                        <img src="images/dots.svg"> 
+                    </div>
+                    <div class="banner-text text-uppercase position-absolute top-0 start-50 mt-5"> 
+                        <p class="fs-1 fw-semibold mb-5"> the world's leading health care <span class="text-primary"> diagnostic</span> company </p>
+                        <div class="about"> 
+                            <a class="btn btn-primary rounded-0 fs-6 py-2 px-3" href="#">more about us </a>
+                        </div>
+                    </div>
+                    <div class="social-media"> 
+                        <ul class="list-group list-group-flush d-flex flex-row"> 
+                            <li class="list-group-item border-0 p-2"><a class="text-dark" href="#"> <i class="bi bi-facebook"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2"><a class="text-dark" href="#"> <i class="bi bi-twitter-x"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2"><a class="text-dark" href="#"> <i class="bi bi-linkedin"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2"><a class="text-dark" href="#"><i class="bi bi-youtube"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="banner banner1 position-relative"> 
+                    
+                    <div class="circle"> 
+                        <img src="images/circle-shape.svg"> 
+                    </div>  
+                    <div class="circle1"> 
+                        <img src="images/circle-shape.svg"> 
+                    </div>  
+                    <div class="circle-o"> 
+                        <img src="images/O.svg"> 
+                    </div>
+                    <div class="dot2"> 
+                        <img src="images/O.svg"> 
+                    </div>
+                    <div class="banner-text lead text-uppercase position-absolute top-0 start-0"> 
+                        <p class="fs-1 fw-semibold mb-5 health"> the world's leading health care <span class="bg-primary text-light px-2"> diagnostic</span> company </p>
+                        <p class="lorem fs-6 text-capitalize"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum quisquam reiciendis voluptatum incidunt repellendus alias ad numquam eaque neque, sit aliquam magnam obcaecati maiores fugit voluptatem quas exercitationem aliquid.</p>
+                        <div class="about"> 
+                            <a class="btn btn-primary rounded-0" href="#">more about us </a>
+                        </div>
+                    </div>
+                    <div class="social-media facebook position-absolute start-0 bg-transparent"> 
+                        <ul class="list-group list-group-flush d-flex flex-row"> 
+                            <li class="list-group-item border-0 p-2 bg-transparent"><a class="text-dark" href="#"> <i class="bi bi-facebook"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2 bg-transparent"><a class="text-dark" href="#"> <i class="bi bi-twitter-x"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2 bg-transparent"><a class="text-dark" href="#"> <i class="bi bi-linkedin"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2 bg-transparent"><a class="text-dark" href="#"><i class="bi bi-youtube"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="banner banner1 banner2 position-relative"> 
+                    
+                    <div class="circle"> 
+                        <img src="images/circle-shape.svg"> 
+                    </div>  
+                    <div class="circle1"> 
+                        <img src="images/circle-shape.svg"> 
+                    </div>  
+                    <div class="circle-o"> 
+                        <img src="images/O.svg"> 
+                    </div>
+                    <div class="dot2"> 
+                        <img src="images/O.svg"> 
+                    </div>
+                    <div class="banner-text lead text-uppercase position-absolute top-0 start-0"> 
+                        <p class="fs-1 fw-semibold mb-5 health"> the world's leading health care <span class="bg-primary text-light px-2"> diagnostic</span> company </p>
+                        <p class="lorem fs-6 text-capitalize"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum quisquam reiciendis voluptatum incidunt repellendus alias ad numquam eaque neque, sit aliquam magnam obcaecati maiores fugit voluptatem quas exercitationem aliquid.</p>
+                        <div class="about"> 
+                            <a class="btn btn-primary rounded-0" href="#">more about us </a>
+                        </div>
+                    </div>
+                    <div class="social-media facebook position-absolute start-0 bg-transparent"> 
+                        <ul class="list-group list-group-flush d-flex flex-row"> 
+                            <li class="list-group-item border-0 p-2 bg-transparent"><a class="text-dark" href="#"> <i class="bi bi-facebook"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2 bg-transparent"><a class="text-dark" href="#"> <i class="bi bi-twitter-x"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2 bg-transparent"><a class="text-dark" href="#"> <i class="bi bi-linkedin"></i>
+                            </a></li>
+                            <li class="list-group-item border-0 p-2 bg-transparent"><a class="text-dark" href="#"><i class="bi bi-youtube"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="laboratory-main"> 
+        <div class="container"> 
+            <div class="laboratory position-relative"> 
+              <div class="lab-main"> 
+                <div class="research"> 
+                    <div class="col-12">
+                      <div class="heading"> 
+                        <h1 class="text-uppercase position-relative"> Our Latest researchs
+
+                            <div class="big-circle position-absolute"> 
+                            <span class="text-uppercase"> Our Latest researchs
+                                    </span>
+                        </div>
+                        </h1>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="lab-column"> 
+                <div class="row"> 
+                    <div class="col-3"> 
+                        <div class="card rounded-0 border-0 p-3"> 
+                            <div class="card-body p-0 px-3"> 
+                                <p> <span class="capsule"> <i class="bi bi-capsule-pill"></i>
+                                </span></p>
+                                <a href="#" class="medical card-title text-uppercase text-decoration-none fw-semibold fs-4 pb-5"> medical diagnostic</a>
+                                <p class="high card-text mt-3"> High-quality inbred, outbred, disease, germ free, and immunodeficient model
+                                </p>
+                                <p class="read text-uppercase fw-normal me-5"> read more <span class="arrows"> <i class="bi bi-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3"> 
+                        <div class="card rounded-0 border-0 p-3"> 
+                            <div class="card-body p-0 px-3"> 
+                                <p> <span class="capsule"> <i class="bi bi-book-fill"></i>
+                                </span></p>
+                                <a href="#" class="medical card-title text-uppercase text-decoration-none fw-semibold fs-4 pb-5"> safety assessment </a>
+                                <p class="high card-text mt-3"> High-quality inbred, outbred, disease, germ free, and immunodeficient model
+                                </p>
+                                <p class="read text-uppercase fw-normal me-5"> read more <span class="arrows"> <i class="bi bi-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3"> 
+                        <div class="card rounded-0 border-0 p-3"> 
+                            <div class="card-body p-0 px-3"> 
+                                <p> <span class="capsule"> <i class="bi bi-capsule-pill"></i>
+                                </span></p>
+                                <a href="#" class="medical card-title text-uppercase text-decoration-none fw-semibold fs-4 pb-5"> QC microbial testing solutions </a>
+                                <p class="high card-text mt-3"> High-quality inbred, outbred, disease, germ free, and immunodeficient model
+                                </p>
+                                <p class="read text-uppercase fw-normal me-5"> read more <span class="arrows"> <i class="bi bi-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3"> 
+                        <div class="card rounded-0 border-0 p-3"> 
+                            <div class="card-body p-0 px-3"> 
+                                <p> <span class="capsule"> <i class="bi bi-capsule-pill"></i>
+                                </span></p>
+                                <a href="#" class="medical card-title text-uppercase text-decoration-none fw-semibold fs-4 pb-5"> laboratory science </a>
+                                <p class="high card-text mt-3"> High-quality inbred, outbred, disease, germ free, and immunodeficient model
+                                </p>
+                                <p class="read text-uppercase fw-normal me-5"> read more <span class="arrows"> <i class="bi bi-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="medical-main">
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-6"> 
+                   <div class="card border-0 bg-transparent rounded-0"> 
+                    <div class="card-body"> 
+                        <div class="research"> 
+                            <div class="col-12">
+                              <div class="heading excellence"> 
+                                <h1 class="text-uppercase position-relative"> MEDICAL EXCELLENCE FOR YOU
+        
+                                    <div class="big-circle position-absolute"> 
+                                    <span class="text-uppercase"> MEDICAL EXCELLENCE FOR YOU
+                                            </span>
+                                </div>
+                                </h1>
+                              </div>
+                            </div>
+                        </div>
+                        <p class="support there card-text fs-6 mb-4"> We are there to support you with highly efficient, evidence-based and state-of-the-art diagnostic technology. Our scientific experts provide consultation on individual diagnostic pathways and meaningful and valid interpretation of results.</p>
+                        <div class="row"> 
+                            <div class="col-2"> 
+                                <span class="founder"> <img src="images/co-founder.jpg"> </span>
+                            </div>
+                            <div class="col-10 p-0 pt-3"> 
+                                <p class="alan card-title">Alan Oean, Co-founder</p>
+                            </div>
+                        </div>
+                        <div class="signature"> 
+                            <img src="images/Screenshot 2024-12-23 165103.png"> 
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-6 p-0"> 
+                    <div class="card border-0 bg-transparent"> 
+                        <div class="card-body"> 
+                            <div class="medical-image position-relative"> 
+                                <img src="images/medical_bg-min.jpg"> 
+                                <div class="project p-4 px-5 text-center position-absolute z-3"> 
+                                    <p class="text-light"> <span class="fs-1 fw-bold d-block text-light"> 15 </span>  Awarded Projects </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="expert-main"> 
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-4 mt-5"> 
+                    <div class="card border-0 bg-transparent rounded-0"> 
+                     <div class="card-body"> 
+                        <div class="research"> 
+                            <div class="col-12">
+                              <div class="heading field"> 
+                                <h1 class="text-uppercase position-relative">Our fields of Expertise
+
+                                    <div class="big-circle position-absolute"> 
+                                    <span class="text-uppercase">Our fields of Expertise
+                                            </span>
+                                </div>
+                                </h1>
+                              </div>
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+                 </div>
+                 <div class="col-8 expert1"> 
+                    <div class="row expert"> 
+                        <div class="col-8 p-0"> 
+                            <div class="card border-0 bg-transparent local pt-4"> 
+                               <div class="card-body"> 
+                                <p class="card-text text-light"> Medical expertise, local presence and undisputed consulting expertise have made us a real industry heavyweight over the years. Pushing boundaries, developing resources and continual growth strategies were what it was.</p>
+                                <a href="#" class="text-uppercase text-light"> view all </a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-4 p-0 box1"> 
+                            <div class="card border border-light rounded-0  bg-transparent pt-5 local1"> 
+                                <div class="card-body"> 
+                                    <a class="medical1 card-title 
+                                     text-decoration-none text-uppercase" href="#">Medical Diagnostics </a>
+                                    <p class="card-text mt-3 
+                                     fs-6 mb-4"> Sharing our knowledge for your health. </p>
+                                    <a href="#" class="arrow1
+                                    "> <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 p-0"> 
+                            <div class="card border border-light rounded-0  bg-transparent pt-5 local1"> 
+                                <div class="card-body"> 
+                                    <a class="medical1 card-title 
+                                     text-decoration-none text-uppercase" href="#">Environment</a>
+                                    <p class="card-text mt-3 
+                                     fs-6 mb-4"> Our expertise for your clarity.</p>
+                                    <a href="#" class="arrow1"> <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 p-0"> 
+                            <div class="card border border-light rounded-0  bg-transparent pt-5 local1"> 
+                                <div class="card-body"> 
+                                    <a class="medical1 card-title 
+                                     text-decoration-none text-uppercase" href="#">food </a>
+                                    <p class="card-text mt-3 
+                                     fs-6 mb-4"> Our professional expertise for your safety. </p>
+                                    <a href="#" class="arrow1
+                                    "> <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 p-0"> 
+                            <div class="card border border-light rounded-0  bg-transparent pt-5 local1"> 
+                                <div class="card-body"> 
+                                    <a class="medical1 card-title 
+                                     text-decoration-none text-uppercase" href="#">Products Analysis </a>
+                                    <p class="card-text mt-3 
+                                     fs-6 mb-4"> Our knowledge for your success. </p>
+                                    <a href="#" class="arrow1
+                                    "> <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="diagnostic-main"> 
+        <div class="container"> 
+           <div class="row"> 
+            <div class="col-6"> 
+                <div class="row"> 
+                    <div class="col-7 p-0 pt-5 mt-5"> 
+                       <div class="service-image position-relative"> 
+                            <img src="images/service1.jpg"> 
+                        <div class="glass-image position-absolute top-75 start-50"> 
+                            <img src="images/service3.jpg"> 
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-5 pt-5 mt-5 pl-5"> 
+                        <div class="brain-image"> 
+                            <img src="images/service2.jpg"> 
+                        </div>
+                        <div class="discover mt-2"> 
+                            <a href="#" class="text-uppercase fs-6 text-light text-decoration-none"> discover more </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 ps-5"> 
+                <div class="card border-0 bg-transparent rounded-0"> 
+                 <div class="card-body"> 
+                    <div class="research mt-5"> 
+                        <div class="col-12">
+                          <div class="heading fast"> 
+                            <h1 class="text-uppercase position-relative"> fast, reliable, high-quality diagnostic services
+    
+                                <div class="big-circle position-absolute"> 
+                                <span class="text-uppercase"> fast, reliable, high-quality diagnostic services
+                                        </span>
+                            </div>
+                            </h1>
+                          </div>
+                        </div>
+                    </div>
+                     <p class="support support1 card-text fs-6 mb-4"> We are there to support you with highly efficient, evidence-based and state-of-the-art diagnostic technology. Our scientific experts provide consultation on individual diagnostic pathways and meaningful and valid interpretation of results.</p>
+                     <div class="row"> 
+                        <div class="col-6"> 
+                            <ul class="list-group mt-3"> 
+                                <li class="list-group-item p-0 border-0"><i class="bi bi-check-circle-fill"></i>
+                                    Highest Quality Results</li>
+                                <li class="list-group-item p-0 border-0"><i class="bi bi-check-circle-fill"></i>
+                                    Latest Equipment</li>
+                                <li class="list-group-item p-0 border-0"><i class="bi bi-check-circle-fill"></i>
+                                    Led by Passionate Experts</li>
+                            </ul>
+                        </div>
+                        <div class="col-6"> 
+                            <ul class="list-group mt-3"> 
+                                <li class="list-group-item p-0 border-0"><i class="bi bi-check-circle-fill"></i>
+                                    Unmatched Expertise</li>
+                                <li class="list-group-item p-0 border-0"><i class="bi bi-check-circle-fill"></i>
+                                    Safe Diagnosis</li>
+                                <li class="list-group-item p-0 border-0"><i class="bi bi-check-circle-fill"></i>
+                                    Affordable Packages</li>
+                            </ul>
+                        </div>
+                     </div>
+                 </div>
+                </div>
+             </div>
+           </div>
+        </div>
+    </div>
+    <div class="research-main mt-5"> 
+        <div class="container-fluid p-0 overflow-hidden"> 
+           <div class="row"> 
+                <div class="research"> 
+                    <div class="col-12">
+                      <div class="heading"> 
+                        <h1 class="text-uppercase position-relative"> Our Latest researchs
+
+                            <div class="big-circle position-absolute"> 
+                            <span class="text-uppercase"> Our Latest researchs
+                                    </span>
+                        </div>
+                        </h1>
+                      </div>
+                    </div>
+                </div>
+                <div class="slide-main mt-5"> 
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio1-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio2-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio3-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio4-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio5-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio6-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio8-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio9-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio10-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio11-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio1-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-mid"> 
+                        <div class="slide-inner"> 
+                            <div class="slide-image w-100 position-relative"> 
+                                <img src="images/portfolio1-min-470x558.jpg"> 
+                                <div class="arrow2 px-3 py-2 pb-0 position-absolute top-0 end-0"> 
+                                    <p> <i class="bi bi-arrow-right"></i>
+                                    </p>
+                                </div>
+                                <div class="up-text position-absolute"> 
+                                    <p class="text-capitalize bg-dark fs-6 py-1 px-2 text-light d-inline-block">oncology</p>
+                                </div>
+                                <div class="down-text position-absolute"> 
+                                    <h1 class="text-capitalize bg-dark py-0 px-2 text-light d-inline-block">intregrative clinical genomics of advanced prostate cancer </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                <div class="solution"> 
+                    <div class="container"> 
+                        <div class="row"> 
+                            <div class="col-6 text-light py-5"> 
+                                <h1 class="text-uppercase let"> LET'S TALK ABOUT IT SOLUTIONS</h1>
+                                <p>Our excellent team is ready to be part of your team to work on diagnoses.</p>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end align-items-start mt-5"> 
+                                <button type="button" class="contact btn btn-outline-primary rounded-0 border border-light py-3 px-5"> <a href="#" class="text-uppercase text-light text-decoration-none fs-6"> contact us</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           
+        </div>
+    </div>
+    <div class="numbers-main my-5"> 
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col text-center"> 
+                    <div class="card border-0"> 
+                        <div class="card-body">
+                            <h1 class="card-title fw-bold position-relative">15
+                                <div class="plus position-absolute top-0"> 
+                                    <p class="card-text fs-5">+</p>
+                                   </div>
+                            </h1>
+                            <p class="year card-text fs-6"> Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center"> 
+                    <div class="card border-0"> 
+                        <div class="card-body">
+                            <h1 class="card-title fw-bold position-relative">60
+                               <div class="plus position-absolute top-0"> 
+                                <p class="card-text fs-5">+</p>
+                               </div>
+                            </h1>
+                            <p class="year card-text fs-6"> Presence in Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center"> 
+                    <div class="card border-0"> 
+                        <div class="card-body">
+                            <h1 class="card-title fw-bold position-relative">17
+                               <div class="plus position-absolute top-0"> 
+                                <p class="card-text fs-5">+</p>
+                               </div>
+                            </h1>
+                            <p class="year card-text fs-6"> Registered in Countries
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center"> 
+                    <div class="card border-0"> 
+                        <div class="card-body">
+                            <h1 class="card-title fw-bold position-relative">350
+                               <div class="plus position-absolute top-0"> 
+                                <p class="card-text fs-5">+</p>
+                               </div>
+                            </h1>
+                            <p class="year card-text fs-6"> Total No of Products
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center"> 
+                    <div class="card border-0"> 
+                        <div class="card-body">
+                            <h1 class="card-title fw-bold position-relative">8
+                               <div class="plus position-absolute top-0"> 
+                                <p class="card-text fs-5">+</p>
+                               </div>
+                            </h1>
+                            <p class="year card-text fs-6"> Presence in States
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="appointment overflow-hidden"> 
+        <div class="container-fluid p-0"> 
+            <div class="row"> 
+                <div class="research mt-5 mb-5"> 
+                    <div class="col-12 position-relative">
+                      <div class="heading today"> 
+                        <h1 class="text-uppercase position-relative"> MAKE AN APPOINTMENT TODAY
+
+                            <div class="big-circle position-absolute"> 
+                            <span class="text-uppercase"> MAKE AN APPOINTMENT TODAY
+                                    </span>
+                        </div>
+                        </h1>
+                      </div>
+                   <div class="col-6"> 
+                    <form class="shadow position-absolute top-0 end-0 p-5"> 
+                        <h3 class="form-title Please text-uppercase"> Please fill form bellow</h3>
+                        <p class="form-text commit">We are committed to providing excellent service and creating a stress-free experience for our customers.
+                           <div class="row"> 
+                            <div class="col-6 mb-4"> 
+                               <div class="input-field position-relative"> 
+                                <input class="w-100 p-2 rounded-0" type="text"  id="abcd" required>
+                                <label for="abcd" class="position-absolute"> First Name </label>
+                               </div>
+                            </div>
+                            <div class="col-6 mb-4"> 
+                                <div class="input-field position-relative"> 
+                                 <input class="w-100 p-2 rounded-0" type="text"  id="abcd" required>
+                                 <label for="abcd" class="position-absolute"> First Name </label>
+                                </div>
+                             </div>
+                             <div class="col-12 mb-4"> 
+                                <div class="input-field position-relative"> 
+                                 <input class="w-100 p-2 rounded-0" type="email"  id="abcd" required>
+                                 <label for="abcd" class="position-absolute"> Your email* </label>
+                                </div>
+                             </div>
+                             <div class="col-12 mb-4"> 
+                                <select class="w-100 p-2 rounded-0"> 
+                                    <option> -please choose an option-</option>
+                                    <option>Blood bank and chemistry  </option>
+                                    <option> Coagulation & cytology </option>
+                                    <option> Hematology & histology </option>
+                                    <option> Special Requests  </option>
+                                </select>
+                             </div>
+                             <div class="col-12 mb-4"> 
+                                <div class="input-field message position-relative"> 
+                                <textarea class="w-100 p-2 rounded-0" id="abcd" required></textarea>
+                                 <label for="abcd" class="position-absolute"> Your email* </label>
+                                </div>
+                             </div>
+                             <div class="col-12 mb-4"> 
+                                <div class="input-field1 position-relative"> 
+                                 <input type="checkbox" id="data">
+                                 <label class="agree position-absolute" for="data"> I agree that my submitted data is being collected and stored. </label>
+                                </div>
+                             </div>
+                             <div class="col-12"> 
+                                <button type="button" class="submit btn btn-primary w-100 rounded-0 p-3"><a class="text-uppercase text-decoration-none text-light" href="#"> submit request</a></button>
+                                </div>
+                             </div>
+                           </div>
+                        </p>
+                      </form>
+                   </div>
+                    </div>
+                </div>
+            </div>
+            <div class="appointment-image"> 
+                <img src="images/appointment.jpg"> 
+            </div>
+        </div>
+    </div>
+    <div class="medical-main">
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-6"> 
+                   <div class="card border-0 bg-transparent rounded-0"> 
+                    <div class="card-body"> 
+                        <div class="research"> 
+                            <div class="col-12">
+                              <div class="heading excellence"> 
+                                <h1 class="text-uppercase position-relative"> excellence in service to patients and the medical community
+        
+                                    <div class="big-circle position-absolute"> 
+                                    <span class="text-uppercase"> excellence in service to patients and the medical community
+                                            </span>
+                                </div>
+                                </h1>
+                              </div>
+                            </div>
+                        </div>
+                        <p class="support there there1 card-text fs-6 mb-4"> Whether for patients or clients from the medical professional world – Osaka LAB is the industry leader in the provision of laboratory diagnostic services.</p>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-6 p-0 mt-5"> 
+                   <div class="biotechnology mb-5 pt-5"> 
+                    <div class="biotechnology1"> 
+                        <div class="progress-text"> 
+                            <h3 class=""> BIOTECHNOLOGY <span> 70% </span></h3>
+                        </div>
+                        <div class="progress bg-transparent rounded-0 p-0" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100%"> 
+                            <div class="progress-bar" style="width:100%; height: 7px; border-radius:4px 0 0 4px;"></div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="biotechnology mb-5"> 
+                    <div class="biotechnology1 biotechnology2"> 
+                        <div class="progress-text"> 
+                            <h3 class=""> BIOTECHNOLOGY <span> 90% </span></h3>
+                        </div>
+                        <div class="progress bg-transparent rounded-0 p-0" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100%"> 
+                            <div class="progress-bar" style="width: 100%; height: 7px; border-radius:4px 0 0 4px;"></div>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="biotechnology"> 
+                    <div class="biotechnology1 biotechnology3"> 
+                        <div class="progress-text"> 
+                            <h3 class=""> BIOTECHNOLOGY <span> 60% </span></h3>
+                        </div>
+                        <div class="progress bg-transparent rounded-0 p-0" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100%"> 
+                            <div class="progress-bar" style="width: 100%; height: 7px; border-radius:4px 0 0 4px;"></div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lab-logo mt-5 mb-5"> 
+        <div class="container"> 
+            <div class="logo1"> 
+                <div class="logo2"> 
+                    <div class="logo3"> 
+                        <div class="logo-image1"> 
+                            <a href="#" alt="this is slider image"> <img src="images/logo1.jpg"> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo2"> 
+                    <div class="logo3"> 
+                        <div class="logo-image1"> 
+                            <a href="#" alt="this is slider image"> <img src="images/logo2.jpg"> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo2"> 
+                    <div class="logo3"> 
+                        <div class="logo-image1"> 
+                            <a href="#" alt="this is slider image"> <img src="images/logo3.jpg"> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo2"> 
+                    <div class="logo3"> 
+                        <div class="logo-image1"> 
+                            <a href="#" alt="this is slider image"> <img src="images/logo4.jpg"> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo2"> 
+                    <div class="logo3"> 
+                        <div class="logo-image1"> 
+                            <a href="#" alt="this is slider image"> <img src="images/logo5.jpg"> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo2"> 
+                    <div class="logo3"> 
+                        <div class="logo-image1"> 
+                            <a href="#" alt="this is slider image"> <img src="images/logo6.jpg"> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="client-main w-100 overflow-hidden"> 
+        <div class="container-fluid"> 
+            <div class="row"> 
+                <div class="col-4 p-0"> 
+                    <div class="client-image w-100"> 
+                    
+                    </div>
+                </div>
+                <div class="col-8 p-0"> 
+                    <div class="client-background w-100 pt-4 p-2 text-light"> 
+                        <div class="research mb-5"> 
+                            <div class="col-12">
+                              <div class="heading field"> 
+                                <h1 class="text-uppercase position-relative">Client ‘s feedback
+
+                                    <div class="big-circle position-absolute"> 
+                                    <span class="text-uppercase">Client ‘s feedback
+                                            </span>
+                                </div>
+                                </h1>
+                              </div>
+                            </div>
+                        </div>
+                        <div id="carouselexample" class="carousel slide"> 
+                            <div class="carousel-inner"> 
+                                <div class="carousel-item active"> 
+                                    <p class="text-center"> Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul.</p> 
+                                    <div class="client1"> 
+                                       <span>  <img src="images/client1.jpg"></span> 
+                                       <a href="#" class="text-uppercase fs-5 text-decoration-none text-light">melisa utabe </a>
+                                       <p class="designer">Web designer, NYC</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"> 
+                                    <p class="text-center"> Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul.</p> 
+                                    <div class="client1"> 
+                                       <span>  <img src="images/client1.jpg"></span> 
+                                       <a href="#" class="text-uppercase fs-5 text-decoration-none text-light">melisa utabe </a>
+                                       <p class="designer">Web designer, NYC</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"> 
+                                    <p class="text-center"> Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul.</p> 
+                                    <div class="client1"> 
+                                       <span>  <img src="images/client1.jpg"></span> 
+                                       <a href="#" class="text-uppercase fs-5 text-decoration-none text-light">melisa utabe </a>
+                                       <p class="designer">Web designer, NYC</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselexample" data-bs-slide="prev"> 
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselexample" data-bs-slide="next"> 
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news-main mt-5"> 
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-4 p-0"> 
+                    <div class="research"> 
+                        <div class="col-12">
+                          <div class="heading news"> 
+                            <h1 class="text-uppercase position-relative">News & insights
+
+                                <div class="big-circle position-absolute"> 
+                                <span class="text-uppercase">News & insights
+                                        </span>
+                            </div>
+                            </h1>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 p-0"> 
+                    <div class="news1"> 
+                        <div class="news2"> 
+                            <div class="news3"> 
+                                <div class="card bg-transparent border-0 border-start rounded-0 p-3"> 
+                                    <div class="card-body"> 
+                                        <a href="#" class="text-decoration-none card-text text-uppercase fs-6"> september 4, 2024</a>
+                                        <a href="#" class="text-decoration-none antigen card-title pt-2"> New antigen tests are worse than PCR for evaluating asymptomatic patients in the future </a>
+                                        <p class="card-text lead1"> One of the leading companies in the sector warns that they tend to give false negatives in people...</p>
+                                        <a href="#" class="circle-arrow"> <span> <i class="bi bi-chevron-right"></i>
+                                        </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news2"> 
+                            <div class="news3"> 
+                                <div class="card bg-transparent border-0 border-start rounded-0 p-3"> 
+                                    <div class="card-body"> 
+                                        <a href="#" class="text-decoration-none card-text text-uppercase fs-6"> september 4, 2024</a>
+                                        <a href="#" class="text-decoration-none antigen card-title pt-2"> The convergence of nuclear medicine and pediatric orthopedic surgery</a>
+                                        <p class="card-text lead1"> 
+                                            In pediatrics, young patients may not be able to communicate the exact location and intensity of the pain they’re experiencing. With SPECT/CT the origin of pain becomes clearly visible, which can lead to more accurate diagnoses.</p>
+                                        <a href="#" class="circle-arrow"> <span> <i class="bi bi-chevron-right"></i>
+                                        </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news2"> 
+                            <div class="news3"> 
+                                <div class="card bg-transparent border-0 border-start rounded-0 p-3"> 
+                                    <div class="card-body"> 
+                                        <a href="#" class="text-decoration-none card-text text-uppercase fs-6"> september 4, 2024</a>
+                                        <a href="#" class="text-decoration-none antigen card-title pt-2"> IBM Quantum Summit 2020: Exploring the Promise of Quantum Computing for Industry </a>
+                                        <p class="card-text lead1"> 
+                                            A recent panel discussion on “The Promise of Quantum for Industry” at the annual IBM Quantum Summit homed in on several business challenges that quantum computers are well-suited to tackle and more.</p>
+                                        <a href="#" class="circle-arrow"> <span> <i class="bi bi-chevron-right"></i>
+                                        </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news2"> 
+                            <div class="news3"> 
+                                <div class="card bg-transparent border-0 border-start rounded-0 p-3"> 
+                                    <div class="card-body"> 
+                                        <a href="#" class="text-decoration-none card-text text-uppercase fs-6"> september 4, 2024</a>
+                                        <a href="#" class="text-decoration-none antigen card-title pt-2"> New antigen tests are worse than PCR for evaluating asymptomatic patients in the future </a>
+                                        <p class="card-text lead1"> One of the leading companies in the sector warns that they tend to give false negatives in people...</p>
+                                        <a href="#" class="circle-arrow"> <span> <i class="bi bi-chevron-right"></i>
+                                        </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-main mt-5 overflow-hidden"> 
+        <div class="container-fluid p-0"> 
+            <div class="row"> 
+                <div class="col-4 p-0"> 
+                    <div class="footer-left"> 
+                        <div class="footer-logo"> 
+                            <a href="#"> <img src="images/down-logo.svg"></a>
+                        </div>
+                        <div class="privacy"> 
+                            <a href="#" class="text-decoration-none fs-6"> privacy policy </a>
+                        </div>
+                        <div class="copyright"> 
+                            <p> Copyright © 2024 WSTHEMES.
+                                All rights Reserved.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="footer-right"> 
+                       <div class="tab-buttons"> 
+                        <nav> 
+                            <div class="nav nav-tabs border-0 mb-3" id="nav-tab" role="tab-list"> 
+                                <button class="nav-link product1 active bg-transparent text-light border-0 fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-product" type="button"> Products & services </button>
+
+                                <button class="nav-link bg-transparent text-light border-0 fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button"> About Us </button>
+
+                                <button class="nav-link bg-transparent text-light border-0 fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-resource " type="button"> Resource Library </button>
+
+                                <button class="nav-link bg-transparent text-light border-0 fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-faq" type="button"> FAQs </button>
+
+                                <button class="nav-link bg-transparent text-light border-0 fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button">Contact Us </button>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabcontent"> 
+                            <div class="tab-pane fade show active" id="nav-product" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                                <ul class="list-group list-group-flush flex-row flex-wrap"> 
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Medical Imaging
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Laboratory Diagnostics
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Point-of-Care Testing
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Digital Health Solutions
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Services & Consulting
+                                    </a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                                <ul class="list-group list-group-flush flex-row flex-wrap"> 
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none">Our Company
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Our experts
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Our History
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Our Partners
+                                    </a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="nav-resource" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                                <ul class="list-group list-group-flush flex-row flex-wrap"> 
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none">Gallery 2 Columns
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Gallery 3 Columns
+                                    </a></li>
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none"> Gallery 4 Columns
+                                    </a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="nav-faq" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                                <ul class="list-group list-group-flush flex-row"> 
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none">FAQs
+                                    </a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                                <ul class="list-group list-group-flush flex-row"> 
+                                    <li class="list-group-item bg-transparent border-0"> <a href="#" class="text-light text-decoration-none">Contact Us
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                       </div>
+                        <div class="row"> 
+                            <div class="col-6 p-0 mt-5" style="border-right: 1px solid white ;"> 
+                                <div class="letter"> 
+                                    <div class="card border-0 bg-transparent text-light"> 
+                                        <div class="card-body"> 
+                                            <h2 class="mb-4 fs-4 card-title">Newsletter Subscription
+                                            </h2>
+                                           <div class="subscription position-relative"> 
+                                            <input class="w-100 border-0 bg-transparent" type="email" placeholder="Your email"> 
+                                            <div class="icon position-absolute bottom-0 end-0"> 
+                                                <a href="#"><span> <i class="bi bi-chevron-right"></i>
+                                                </span></a>
+                                            </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 p-0 mt-5"> 
+                                <div class="letter"> 
+                                    <div class="card border-0 bg-transparent text-light"> 
+                                        <div class="card-body"> 
+                                            <h2 class="mb-4 fs-4 card-title">Find us on
+                                            </h2>
+                                         <ul class="list-group flex-row"> 
+                                            <li class="list-group-item bg-transparent border-0"><a class="text-light" href="#"> <i class="bi bi-facebook"></i></a></li>
+
+                                            <li class="list-group-item bg-transparent border-0"><a class="text-light" href="#"> <i class="bi bi-twitter-x"></i></a></li>
+
+                                            <li class="list-group-item bg-transparent border-0"><a class="text-light" href="#"> <i class="bi bi-linkedin"></i></a></li>
+
+                                            <li class="list-group-item bg-transparent border-0"><a class="text-light" href="#"> <i class="bi bi-instagram"></i></a></li>
+
+                                            <li class="list-group-item bg-transparent border-0"><a class="text-light" href="#"> <i class="bi bi-youtube"></i></a></li>
+                                         </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line" id="scrollIndicator"></div>
+<div class="scroll-btn"> 
+    <a href="#"> 
+        <span><i class="bi bi-arrow-up"></i>
+        </span>
+    </a>
+</div>
+    <script src="js/jquery-3.7.1.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+     <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/slick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> -->
+    <script> 
+        $('.banner-main1').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll:1,
+        fade:true,
+        autoplay:true,
+        autoplaySpeed:10000,
+      });
+    </script>
+     <script> 
+        $('.slide-main').slick({
+        infinite: true,
+        slidesToShow:5,
+        slidesToScroll:1,
+        arrows:true,
+        autoplay:false,
+        autoplaySpeed:10000,
+        responsive: [
+    {
+      breakpoint: 992,
+      settings:{
+        slidesToShow:3,
+        slidesToScroll:1,
+        infinite: true,
+        dots: true,
+      }
+    },
+    {
+    breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll:1,
+        infinite:true,
+        dots:true,
+      }
+    }
+  ]
+      });
+    </script>
+     <script> 
+        $('.logo1').slick({
+        infinite: true,
+        slidesToShow:5,
+        slidesToScroll:1,
+        autoplay:false,
+        autoplaySpeed:10000,
+        responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll:1,
+        infinite:true,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll:1,
+        infinite:true,
+      }
+    }
+  ]
+      });
+    </script>
+      <script> 
+        $('.news1').slick({
+        infinite: false,
+        slidesToShow:3,
+        slidesToScroll:1,
+        arrows:true,
+        autoplay:false,
+        autoplaySpeed:10000,
+        responsive: [
+    {
+      breakpoint: 992,
+      settings:{
+        slidesToShow:2 ,
+        slidesToScroll:1,
+        infinite:false,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings:{
+        slidesToShow:1,
+        slidesToScroll:1,
+        infinite:false,
+      }
+    }
+  ]
+      });
+    </script>
+    <script> 
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            
+            if(scroll >=300){
+                $(".header-main").addClass("sticky-header");
+            }
+            else{
+                $(".header-main").removeClass("sticky-header");
+            }
+        })
+    </script>
+    <script> 
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+
+            if(scroll >= 300){
+                $(".scroll-btn").addClass("sticky-btn");
+            }
+            else{
+                $(".scroll-btn").removeClass("sticky-btn");
+            }
+        })
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('scroll',
+                moveScrollIndicator);
+
+        const scrollIndicatorElt =
+            document.getElementById('scrollIndicator');
+
+        const maxHeight =
+            window.document.body.scrollHeight
+            - window.innerHeight;
+
+        function moveScrollIndicator(e) {
+            const percentage = 
+                ((window.scrollY) / maxHeight) * 103;
+
+            scrollIndicatorElt.style.width
+                = percentage + '%';
+        }
+    </script>
+</body>
+</html>
